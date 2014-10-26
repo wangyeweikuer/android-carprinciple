@@ -1263,7 +1263,7 @@ containing a value of this type.
         public static final int goto_principle_list=0x7f0a0011;
         public static final int principleDetail=0x7f0a0010;
         public static final int principleList=0x7f0a000f;
-        public static final int server_url_temp=0x7f0a0017;
+        public static final int server_host_and_port=0x7f0a0017;
     }
     public static final class style {
         /** 

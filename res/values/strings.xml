@@ -2,7 +2,7 @@
 <resources>
 
     <string name="app_name">汽车原理</string>
-    <string name="action_settings">设置...</string>
+    <string name="action_settings">设置</string>
     <string name="principleList">原理列表</string>
     <string name="principleDetail">原理详情</string>
     <string name="goto_principle_list">原理列表</string>
@@ -10,17 +10,16 @@
         	_id integer primary key,
         	name text ,
         	url	 text,
-        	parent integer,
-        	unique(name)
+        	category text
         )</string>
     <string name="deletePrincipleTable">drop table if exists principle</string>
     <string name="createSettingTable">create table setting (
-        	name text ,
+        	name text,
         	value text,
         	unique(name)
         )</string>
     <string name="deleteSettingTable">drop table if exists setting</string>
     <string name="empty">No Content!</string>
-    <string name="server_url_temp">http://192.168.1.107:8181/api/%s</string>
+    <string name="server_host_and_port">http://192.168.1.106:3000</string>
 
 </resources>
