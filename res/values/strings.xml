@@ -19,5 +19,5 @@
         )</string>
     <string name="deleteSettingTable">drop table if exists setting</string>
     <string name="empty">No Content!</string>
-    <string name="server_host_and_port">http://192.168.1.106:3000</string>
+    <string name="server_host_and_port">http://www.kllwxy.com:3000</string>
 </resources>
